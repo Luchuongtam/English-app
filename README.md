@@ -42,13 +42,21 @@ Vì dự án chia thành nhiều file (`.cpp` và `.h`), bạn cần biên dịc
 
 ### Bước 2: Biên dịch (Compile)
 Mở Terminal tại thư mục dự án và chạy lệnh sau để nối tất cả các file:
+```text
     g++ *.cpp -o app
+```
 
 ### Bước 3: Chạy chương trình
 Trên Windows:
+
+```text
     .\app.exe
+```
 Trên MacOS / Linux:
+
+```text
     ./app
+```
 
 ## 📂 Cấu trúc Dự án (Project Structure)
 
