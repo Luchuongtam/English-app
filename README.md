@@ -50,32 +50,33 @@ Trên Windows:
 Trên MacOS / Linux:
     ./app
 
-## Cây thư mục
+## 📂 Cấu trúc Dự án (Project Structure)
+
+Dự án được tổ chức thành các module đơn giản:
+
 English-app/
 │
-├── 📄 main.cpp             # File chính (Chạy chương trình từ đây)
+├── 📄 main.cpp             # [CHÍNH] File chạy chương trình
 │
-├── 🧩 Nhóm file Tiện ích
-│   ├── Utils.h             # Khai báo hàm chung (Menu, màu sắc...)
-│   └── Utils.cpp           # Code xử lý các hàm chung
+├── 📦 FlashCard (Học từ vựng)
+│   ├── FlashCard.h         # Định nghĩa cấu trúc thẻ từ
+│   └── FlashCard.cpp       # Xử lý logic học từ
 │
-├── 🔤 Nhóm file FlashCard (Học từ)
-│   ├── FlashCard.h         # Khai báo chức năng thẻ từ vựng
-│   └── FlashCard.cpp       # Code xử lý học từ vựng
+├── 📦 Pomodoro (Đồng hồ tập trung)
+│   ├── Pomodoro.h          # Định nghĩa đồng hồ
+│   └── Pomodoro.cpp        # Xử lý đếm ngược thời gian
 │
-├── 📊 Nhóm file GPA (Điểm số)
-│   ├── GPACalculator.h     # Khai báo chức năng tính điểm
-│   └── GPACalculator.cpp   # Code xử lý tính toán GPA
+├── 📦 GPA Calculator (Tính điểm)
+│   ├── GPACalculator.h     # Định nghĩa công thức điểm
+│   └── GPACalculator.cpp   # Xử lý tính toán GPA
 │
-├── 🍅 Nhóm file Pomodoro (Đồng hồ)
-│   ├── Pomodoro.h          # Khai báo đồng hồ bấm giờ
-│   └── Pomodoro.cpp        # Code chạy đồng hồ
+├── 📦 Quiz (Trắc nghiệm)
+│   ├── Quiz.h              # Định nghĩa câu hỏi
+│   └── Quiz.cpp            # Xử lý bài kiểm tra
 │
-├── ❓ Nhóm file Quiz (Trắc nghiệm)
-│   ├── Quiz.h              # Khai báo hệ thống câu hỏi
-│   └── Quiz.cpp            # Code xử lý bài kiểm tra
-│
-└── 📝 README.md            # Hướng dẫn sử dụng
+└── 📦 Utils (Tiện ích)
+    ├── Utils.h             # Các hàm hỗ trợ chung
+    └── Utils.cpp           # Xử lý giao diện, màu sắc
 
 👤 Tác giả
 Luchuongtam - N24DCCN139
