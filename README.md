@@ -54,6 +54,7 @@ Trên MacOS / Linux:
 
 Dự án được tổ chức thành các module đơn giản:
 
+```text
 English-app/
 │
 ├── 📄 main.cpp             # [CHÍNH] File chạy chương trình
@@ -77,6 +78,7 @@ English-app/
 └── 📦 Utils (Tiện ích)
     ├── Utils.h             # Các hàm hỗ trợ chung
     └── Utils.cpp           # Xử lý giao diện, màu sắc
+```
 
 👤 Tác giả
 Luchuongtam - N24DCCN139
